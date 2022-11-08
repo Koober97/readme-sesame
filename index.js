@@ -64,8 +64,25 @@ const questions = [
     }
 ];
 
+const promptUser = () => {
+    return inquirer.prompt(questions);
+}
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(data) {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./example/readme.md', data, err => {
+            if (err) {{
+                reject(err);
+                return;
+            }
+        resolve({
+            ok:true,
+            message: "readme.md has been created",
+        })}
+        })
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {}
