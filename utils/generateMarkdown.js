@@ -61,7 +61,7 @@ function generateMarkdown(data) {
     ${data.tests}
 
   ## Questions
-  See my Github [GitHub](https://www.github.com/${data.github})
+  See my Github (https://www.github.com/${data.github})
   Email me <${data.email}>
 `;
 }

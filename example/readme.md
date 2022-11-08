@@ -1,18 +1,18 @@
-# README generator
+# README Generator
 
   # Project Title
-    README generator
+    README Generator
   
   ## Description
-    A README generator using NODE.js
+    A README Generator using NODE.js
 
   ## Technologies
     Node.js
   ## Installation
-    Download from GitHub
+    Download files from GitHub and run node index
   
   ## Usage
-    Quick README
+    Quickly creating README files
 
   ## License
     Public
@@ -30,5 +30,5 @@
     node index
 
   ## Questions
-  See my Github [GitHub](https://www.github.com/Koober97)
+  See my Github (https://www.github.com/Koober97)
   Email me <bkoo3035@gmail.com>
