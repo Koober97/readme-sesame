@@ -58,7 +58,7 @@ const questions = [
     },
     {
         name: "License",
-        type: "Checkbox",
+        type: "checkbox",
         message: "Which licese/license's will it use:",
         choices: ["MIT", "BSD", "Apache", "GPL", "ISC", "Public", "None"],
     }
@@ -71,7 +71,7 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 function writeToFile(data) {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./example/readme.md', data, err => {
+        fs.writeFile("./example/readme.md", data, err => {
             if (err) {{
                 reject(err);
                 return;
