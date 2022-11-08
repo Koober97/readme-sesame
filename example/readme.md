@@ -4,24 +4,24 @@
     README Generator
   
   ## Description
-    A README Generator using NODE.js
+    A README generator using NODE.js
 
   ## Technologies
     Node.js
   ## Installation
-    Download files from GitHub and run node index
+    Download needed files from Github and run node index
   
   ## Usage
-    Quickly creating README files
+    Quickly creating README
 
   ## License
-    Public
+    MIT
     [GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)
     
 * [License](#license)
 
     ## License
-      This project was developed under the Public license.
+      This project was developed under the MIT license.
   
   ## Contributing
     None
@@ -30,5 +30,5 @@
     node index
 
   ## Questions
-  See my Github (https://www.github.com/Koober97)
+  See my [GitHub](https://www.github.com/Koober97)
   Email me <bkoo3035@gmail.com>
