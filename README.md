@@ -1,4 +1,4 @@
-# READEME-SESAME
+# README-SESAME
 
 ## Objective
 
