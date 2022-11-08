@@ -13,17 +13,17 @@ const questions = [
     {
         name: "Name",
         type: "Input",
-        message: "Name:"
+        message: "What is your Name?:"
     },
     {
         name: "Email",
         type: "Input",
-        message: "Email Address:"
+        message: "What is your Email Address:"
     },
     {
         name: "Github",
         type: "Input",
-        message: "Github Username:"
+        message: "What is your Github Username:"
     },
     {
         name: "Description",
@@ -32,7 +32,7 @@ const questions = [
     },
     {
         name: "Tech",
-        type: "Checkbox",
+        type: "checkbox",
         choices: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Node.js", "React.js"],
         message: "Which tech did you use to build this:"
     },
@@ -44,7 +44,7 @@ const questions = [
     {
         name: "Usage",
         type: "Input",
-        message: "What is the use case:"
+        message: "What is the use for this:"
     },
     {
         name: "Contributing",
