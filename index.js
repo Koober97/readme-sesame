@@ -6,58 +6,58 @@ const generateReadMe = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        name: "Title",
-        type: "Input",
+        name: "title",
+        type: "input",
         message: "What is your Application Title:"
     },
     {
-        name: "Name",
-        type: "Input",
+        name: "name",
+        type: "input",
         message: "What is your Name?:"
     },
     {
-        name: "Email",
-        type: "Input",
+        name: "email",
+        type: "input",
         message: "What is your Email Address:"
     },
     {
-        name: "Github",
-        type: "Input",
+        name: "github",
+        type: "input",
         message: "What is your Github Username:"
     },
     {
-        name: "Description",
-        input: "Input",
+        name: "description",
+        input: "input",
         message: "Describe the Application:"
     },
     {
-        name: "Tech",
+        name: "tech",
         type: "checkbox",
         choices: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Node.js", "React.js"],
         message: "Which tech did you use to build this:"
     },
     {
-        name: "Installation",
-        input: "Input",
+        name: "installation",
+        input: "input",
         message: "Describe the Installation Process:"
     },
     {
-        name: "Usage",
-        type: "Input",
+        name: "usage",
+        type: "input",
         message: "What is the use for this:"
     },
     {
-        name: "Contributing",
-        type: "Input",
+        name: "contributing",
+        type: "input",
         message: "Project Contribution Guidelines:"
     },
     {
-        name: "Tests",
-        type: "Input",
+        name: "tests",
+        type: "input",
         message: "Testing Instructions:"
     },
     {
-        name: "License",
+        name: "license",
         type: "checkbox",
         message: "Which licese/license's will it use:",
         choices: ["MIT", "BSD", "Apache", "GPL", "ISC", "Public", "None"],
@@ -71,18 +71,18 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 function writeToFile(data) {
     return new Promise((resolve, reject) => {
-        fs.writeFile("./example/readme.md", data, err => {
-            if (err) {{
-                reject(err);
-                return;
-            }
+      fs.writeFile('./example/readme.md', data, err => {
+        if (err) {{
+          reject(err);
+          return;
+        }
         resolve({
-            ok:true,
-            message: "readme.md has been created",
-        })}
+          ok:true,
+          message: 'readme.md created',
         })
-    })
-}
+      }})
+  })
+  }
 
 // TODO: Create a function to initialize app
 function init() {

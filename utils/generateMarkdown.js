@@ -41,7 +41,7 @@ function generateMarkdown(data) {
     ${data.description}
 
   ## Technologies
-    ${data.tech.join(", ")}
+    ${data.tech}
   ## Installation
     ${data.installation}
   
