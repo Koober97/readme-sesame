@@ -18,7 +18,7 @@
 ## Results
 
 - I was able to successfully create a working README generator using the given starter code
-- Link to Demo Video
+- Link to [Demo Video](https://youtu.be/csbb1df3htc)
 - Link to [Sample README](example/readme.md)
 
 ### Created by Brian Koo
